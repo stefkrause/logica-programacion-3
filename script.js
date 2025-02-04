@@ -19,7 +19,7 @@ function calcularFactorial() {
 }
 
 numInput.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {  // Verificar si la tecla presionada es Enter
+    if (event.key === "Enter") {  
         calcularFactorial();
     }
 });
